@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://jiyaho.github.io/react-foodist/static/css/main.bf93474e.css",
-    "main.js": "https://jiyaho.github.io/react-foodist/static/js/main.71ac07b0.js",
+    "main.js": "https://jiyaho.github.io/react-foodist/static/js/main.602abbf8.js",
     "index.html": "https://jiyaho.github.io/react-foodist/index.html",
     "main.bf93474e.css.map": "https://jiyaho.github.io/react-foodist/static/css/main.bf93474e.css.map",
-    "main.71ac07b0.js.map": "https://jiyaho.github.io/react-foodist/static/js/main.71ac07b0.js.map"
+    "main.602abbf8.js.map": "https://jiyaho.github.io/react-foodist/static/js/main.602abbf8.js.map"
   },
   "entrypoints": [
     "static/css/main.bf93474e.css",
-    "static/js/main.71ac07b0.js"
+    "static/js/main.602abbf8.js"
   ]
 }
