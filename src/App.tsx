@@ -5,10 +5,11 @@ import About from './routes/About';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    // <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/react-foodist" element={<Home />} />
+        <Route path="/react-foodist/about" element={<About />} />
       </Routes>
     </Router>
   )
