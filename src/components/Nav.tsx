@@ -5,17 +5,17 @@ import styles from '../css/App.module.css';
 function Nav() {
   const navigate = useNavigate();
   const onClick = () => {
-    navigate(`/`);
+    navigate(`/react-foodist`);
     window.location.reload();
   }
   return (
     <div className={styles.navWrap}>
-      <Link to={`/`} onClick={onClick}>
+      <Link to={`/react-foodist`} onClick={onClick}>
         FOODIST
       </Link>
       <ul>
         <li>
-          <Link to={`/about`}>ABOUT US</Link>
+          <Link to={`/react-foodist/about`}>ABOUT US</Link>
         </li>
       </ul>
     </div>
