@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Nav */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 15px;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  transform: translateY(-100%);
+  /* position: absolute; */
+  top: 550px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  padding-top: 40px;
+  font-size: 0.9em;
+}
+footer ul {
+  position: relative;
+  transform: translateY(-100%);
+  width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  color: white;
+}
+footer li {
+  list-style:square;
+}
+.copyright {
+  position:absolute;
+  margin-top: 35px;
+  color: white;
+  list-style: none;
+}
+
+/*ScrollBtn*/
+.scrollBtn {
+  position: fixed;
+  font-size: 2em;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 95%;
+  margin-top: 500px;
+  cursor: pointer;
+}
+
+/*Home*/
+input {
+  width: 50%;
+  height: 50px;
+  font-size: 2em;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 4px solid black;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color:transparent;
+}
+
+input::placeholder {
+  text-align: left;
+  padding-left: 10px;
+}
+
+form, .dataDescUl {
+  text-align: center;
+}
+
+.dataWrap {
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+.dataWrap Img, .dataDescUl {
+  display: flex;
+}
+
+.dataWrap Img {
+  width: 150px;
+  height: 150px;
+}
+
+.dataDescUl {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 160px;
+  align-items: center;
+  border-top: 2px dotted gray;
+}
+
+.dataDescUl li {
+  margin-right: 5px;
+  margin-left: 5px;
+  list-style: none;
+  width: 200px
+}
+
+
+  /*About*/
+  .container {
+    font-size: 1.2em;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+  .p1 {
+    margin-top: 140px;
+    margin-bottom: 10px;
+  }
+
+
+/* media screen */
+@media screen and (max-width: 768px) {
+  /* mediaScreen > Nav */
+  a {
+    font-size: 2em;
+  }
+
+  .navWrap {
+    margin-top: 20px;
+  }
+
+  /* mediaScreen > Footer */
+  footer {
+    position: relative;
+    transform: translateY(-100%);
+    /* position: absolute; */
+    top: 525px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    padding-top: 40px;
+    font-size: 0.9em;
+  }
+  footer ul {
+    position: relative;
+    transform: translateY(-100%);
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 0.8em;
+  }
+  footer li {
+    list-style: none;
+  }
+  .copyright {
+    position:absolute;
+    margin-top: 80px;
+    color: white;
+    font-size: 0.8em;
+  }
+
+  /* mediaScreen > Home */
+  input {
+    width: 60%;
+    height: 50px;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid black;
+  }
+  
+  h3 {
+    text-align: left;
+    margin-bottom: -5px;
+    margin-left: 33px;
+    margin-top: -5px;
+    width: 241px;
+    font-size: 0.9em;
+  }
+  
+  input::placeholder {
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  form, .dataDescUl {
+    text-align: center;
+  }
+  
+  .dataWrap {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .dataWrap Img {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+  }
+  
+  .dataDescUl {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 100%;
+    align-items: center;
+    border-top: 2px dotted gray;
+    margin-left: 40px;
+    padding: 5px;
+  }
+  
+  .dataDescUl li {
+    list-style: none;
+    width: 240px;
+    font-size: 0.9em;
+    margin-top: 3px;
+  }
+
+  /* mediaScreen > About */
+  .container {
+    font-size: 1em;
+    width: 245px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .p1 {
+    margin-top: 120px;
+  }
+}
