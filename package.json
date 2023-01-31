@@ -46,6 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://api.edamam.com",
   "homepage": "https://jiyaho.github.io/react-foodist"
 }
