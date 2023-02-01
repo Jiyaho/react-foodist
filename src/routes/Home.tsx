@@ -4,6 +4,7 @@ import Search from '../components/Search';
 import ScrollBtn from '../components/ScrollBtn';
 
 function Home() {
+
   return (
     <div>
       <Nav />

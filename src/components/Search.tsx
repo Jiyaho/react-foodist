@@ -8,9 +8,11 @@ function Search() {
   const [error, setError] = useState<any>(null);
   const URL :string = "https://api.edamam.com/api/food-database/v2/parser?"
   const parameter :string = `app_id=${process.env.REACT_APP_API_ID}&app_key=${process.env.REACT_APP_API_KEY}&ingr=${input}&nutrition-type=cooking`
+  
   const onChange = (e :React.ChangeEvent<HTMLInputElement>) => {
     setInput(e.target.value);
   }
+
   const fetchData = async () => {
     try {
       setError(null);
