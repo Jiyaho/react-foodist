@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-foodist/static/css/main.bf93474e.css",
-    "main.js": "/react-foodist/static/js/main.27d8fd07.js",
+    "main.css": "/react-foodist/static/css/main.ee31edf8.css",
+    "main.js": "/react-foodist/static/js/main.bcbd6ff8.js",
     "index.html": "/react-foodist/index.html",
-    "main.bf93474e.css.map": "/react-foodist/static/css/main.bf93474e.css.map",
-    "main.27d8fd07.js.map": "/react-foodist/static/js/main.27d8fd07.js.map"
+    "main.ee31edf8.css.map": "/react-foodist/static/css/main.ee31edf8.css.map",
+    "main.bcbd6ff8.js.map": "/react-foodist/static/js/main.bcbd6ff8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf93474e.css",
-    "static/js/main.27d8fd07.js"
+    "static/css/main.ee31edf8.css",
+    "static/js/main.bcbd6ff8.js"
   ]
 }
