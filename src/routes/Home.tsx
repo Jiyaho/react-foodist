@@ -4,15 +4,16 @@ import Search from '../components/Search';
 import ScrollBtn from '../components/ScrollBtn';
 
 function Home() {
-
   return (
-    <div>
+    <main>
       <Nav />
       <ScrollBtn />
-      <Search />
+      <section>
+        <Search />
+      </section>
       <Footer />
-    </div>  
-  )
+    </main>
+  );
 }
 
 export default Home;

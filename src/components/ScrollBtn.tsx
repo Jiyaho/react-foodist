@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import styles from "../css/App.module.css";
+import { useEffect, useState } from 'react';
+import styles from '../css/App.module.css';
 
 function ScrollBtn() {
   const [toggleScrollBtn, setToggleScrollBtn] = useState(false);
@@ -9,24 +9,24 @@ function ScrollBtn() {
   };
 
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
-    <div>
+    <>
       {toggleScrollBtn ? (
         <button onClick={scrollToTop} className={styles.scrollBtn}>
           🔝
         </button>
       ) : null}
-    </div>
+    </>
   );
 }
 

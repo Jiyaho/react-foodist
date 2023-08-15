@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Noto Sans KR', sans-serif; */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+  min-height: 100vh;
 }
 
 /* Nav */
@@ -17,34 +20,12 @@ a {
 
 /* Footer */
 footer {
-  position: relative;
-  transform: translateY(-100%);
-  /* position: absolute; */
-  top: 550px;
-  width: 100%;
-  height: 100px;
   background-color: black;
-  padding-top: 40px;
-  font-size: 0.9em;
-}
-footer ul {
-  position: relative;
-  transform: translateY(-100%);
-  width: 900px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  width: 100%;
   color: white;
-}
-footer li {
-  list-style:square;
-}
-.copyright {
-  position:absolute;
-  margin-top: 35px;
-  color: white;
-  list-style: none;
 }
 
 /*ScrollBtn*/
@@ -84,7 +65,7 @@ input:focus {
 }
 
 input:focus::-webkit-input-placeholder {
-  color:transparent;
+  color: transparent;
 }
 
 input::placeholder {
@@ -92,7 +73,8 @@ input::placeholder {
   padding-left: 10px;
 }
 
-form, .dataDescUl {
+form,
+.dataDescUl {
   text-align: center;
 }
 
@@ -101,7 +83,8 @@ form, .dataDescUl {
   margin-top: 10px;
 }
 
-.dataWrap Img, .dataDescUl {
+.dataWrap Img,
+.dataDescUl {
   display: flex;
 }
 
@@ -124,22 +107,20 @@ form, .dataDescUl {
   margin-right: 5px;
   margin-left: 5px;
   list-style: none;
-  width: 200px
+  width: 200px;
 }
 
-
-  /*About*/
-  .container {
-    font-size: 1.2em;
-    width: 70%;
-    text-align: center;
-    margin: auto;
-  }
-  .p1 {
-    margin-top: 140px;
-    margin-bottom: 10px;
-  }
-
+/*About*/
+.container {
+  font-size: 1.2em;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.p1 {
+  margin-top: 140px;
+  margin-bottom: 10px;
+}
 
 /* media screen */
 @media screen and (max-width: 768px) {
@@ -180,7 +161,7 @@ form, .dataDescUl {
     list-style: none;
   }
   .copyright {
-    position:absolute;
+    position: absolute;
     margin-top: 80px;
     color: white;
     font-size: 0.8em;
@@ -196,7 +177,7 @@ form, .dataDescUl {
     margin-bottom: 10px;
     border-bottom: 4px solid black;
   }
-  
+
   h3 {
     text-align: left;
     margin-bottom: -5px;
@@ -205,27 +186,28 @@ form, .dataDescUl {
     width: 241px;
     font-size: 0.9em;
   }
-  
+
   input::placeholder {
     text-align: left;
     padding-left: 10px;
   }
-  
-  form, .dataDescUl {
+
+  form,
+  .dataDescUl {
     text-align: center;
   }
-  
+
   .dataWrap {
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  
+
   .dataWrap Img {
     width: 130px;
     height: 130px;
     margin: auto;
   }
-  
+
   .dataDescUl {
     display: flex;
     flex-direction: column;
@@ -236,7 +218,7 @@ form, .dataDescUl {
     margin-left: 40px;
     padding: 5px;
   }
-  
+
   .dataDescUl li {
     list-style: none;
     width: 240px;

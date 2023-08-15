@@ -7,9 +7,9 @@ function Nav() {
   const onClick = () => {
     navigate(`/react-foodist`);
     window.location.reload();
-  }
+  };
   return (
-    <div className={styles.navWrap}>
+    <nav className={styles.navWrap}>
       <Link to={`/react-foodist`} onClick={onClick}>
         FOODIST
       </Link>
@@ -18,8 +18,8 @@ function Nav() {
           <Link to={`/react-foodist/about`}>ABOUT US</Link>
         </li>
       </ul>
-    </div>
-  )
+    </nav>
+  );
 }
 
 export default Nav;
