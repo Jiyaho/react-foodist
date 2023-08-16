@@ -24,6 +24,32 @@
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white" /> <img src="https://img.shields.io/badge/CSS Modules-000000?style=for-the-badge&logo=CSS Modules&logoColor=white" />
 
+## 🔷 File Tree Structure
+
+```
+📦 react-foodist
+├─.gitignore
+├─README.md
+├─package-lock.json
+├─package.json
+├─public
+├─ src
+│  ├─ App.tsx
+│  ├─ components
+│  │  ├─ Footer.tsx
+│  │  ├─Nav.tsx
+│  │  ├─ScrollBtn.tsx
+│  │  └─ Search.tsx
+│  ├─ css
+│  │  └─ App.module.css
+│  ├─ global.d.ts
+│  ├─ index.tsx
+│  └─ routes
+│     ├─ About.tsx
+│     └─ Home.tsx
+└─ tsconfig.json
+```
+
 ## 🔷 Used API
 
 - 음식의 영양 분석 데이터 제공 API
